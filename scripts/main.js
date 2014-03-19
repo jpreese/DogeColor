@@ -8,6 +8,7 @@ _.play = function ()
 {
 
 	playButton.style.visibility = "hidden";
+	guessBox.focus();
 
 	// generate a random color for the user to guess
 	var generatedColor = Color.random();
