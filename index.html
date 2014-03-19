@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>DogeColor</title>
+		
+		<!-- script includes -->
+		<script type="text/javascript" src="scripts/color.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+		<script type="text/javascript" src="scripts/timer.js"></script>
+
+		<!-- styles -->
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+		
+	</head>
+	
+	
+	<body>
+
+		<!-- top nav -->
+		<div class="nav-top">DogeColor</div>
+
+		<div class="body-container">
+			<div class="body-container-title">A randomly generated color will be drawn on the right-aligned box.  Use RGB or HSL to guess the color that was generated!</div>
+			<div class="body-container-subtitle">Ex: rgb(100,150,200) or hsl(10, 40%, 40%)</div>
+
+			<div class="proximity-container">
+				<div id="proximity"></div>
+			</div>
+
+			<!-- guessing color box -->
+			<div class="color-container">
+				<div class="color-box" id="yourGuess">
+					<img src="images/doge.png" alt="doge" />
+				</div>
+			</div>
+
+			<!-- random color box -->
+			<div class="color-container">
+				<div class="color-box" id="rndGuess">
+					<img src="images/doge.png" alt="doge" />
+				</div>
+			</div>
+
+		</div>
+
+		<div class="play-button-container">
+			<button id="playButton" onclick="Main.play();">PLAY</button>
+		</div>
+
+		<div class="guess-box-container">
+			<input type="text" id="guessBox" />
+		</div>
+
+		<div class="timer-container">
+			<p id="timerDisplay">0.0</p>
+		</div>
+	
+	</body>
+	
+</html>

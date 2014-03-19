@@ -1,0 +1,102 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+img
+{
+	height: 200px;
+	width: 200px;
+}
+
+p
+{
+	font-size: 300%;
+}
+
+.nav-top
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #333333;
+	line-height: 45px;
+	position: relative;
+	margin: 0 0;
+}
+
+.body-container
+{
+	padding-top: 50px;
+	text-align: center;
+}
+
+.body-container-subtitle
+{
+	padding-bottom: 50px;
+	font-size: 75%;
+	font-style: italic;
+}
+
+.color-container
+{
+	display: inline-block;
+}
+
+.color-box
+{
+	height: 200px;
+	width: 300px;
+	background: linear-gradient(45deg, silver 25%, transparent 25%, transparent 75%, silver 75%), linear-gradient(45deg, silver 25%, transparent 25%, transparent 75%, silver 75%) 10px 10px;
+	background-size: 20px 20px;
+}
+
+.play-button-container
+{
+	text-align: center;
+}
+
+.guess-box-container
+{
+	text-align: center;
+}
+
+#playButton
+{
+	padding: .35em .4em .4em;
+	border: 1px solid rgba(0,0,0,.3);
+	border-radius: .2em;
+	margin-top: 2em;
+	outline: none;
+	background: yellowgreen linear-gradient(yellowgreen, hsl(80,80%,35%));
+	box-shadow: 0 1px hsla(0,0%,100%,.8) inset, 0 4px 8px -2px black;
+	color: hsl(80,80%,20%);
+	text-shadow: 0 1px 1px white;
+	font-size: 150%;
+	text-align: center;
+}
+
+#guessBox
+{
+	display: block;
+	padding: .3em .5em;
+	border: 1px solid rgba(0,0,0,.5);
+	border-radius: .3em;
+	outline: none;
+	margin: 1em auto;
+	font-size: 150%;
+}
+
+.timer-container
+{
+	text-align: center;
+}
+
+.proximity-container
+{
+	padding-bottom: 25px;
+	color: #2B3856;
+	font-weight: bold;
+	font-size: 200%;
+}
