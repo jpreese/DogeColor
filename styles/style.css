@@ -42,6 +42,7 @@ p
 .color-container
 {
 	display: inline-block;
+	padding-top: 50px;
 }
 
 .color-box
@@ -95,7 +96,6 @@ p
 
 .proximity-container
 {
-	padding-bottom: 25px;
 	color: #2B3856;
 	font-weight: bold;
 	font-size: 200%;
